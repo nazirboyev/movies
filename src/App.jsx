@@ -1,11 +1,10 @@
 import "./App.css"
 import { Routes, Route, Link } from "react-router";
-import Home from "./pages/home";
-import About from "./pages/Movies";
-import Contact from "./pages/Contact";
-import Payments from "./pages/Payments";
-import Shop from "./pages/Shop";
-import Movies from "./pages/Movies";
+import Home from "./pages/Home.jsx";
+import Contact from "./pages/Contact.jsx";
+import Payments from "./pages/Payments.jsx";
+import Shop from "./pages/Shop.jsx";
+import Movies from "./pages/Movies.jsx";
 
 function App() {
   return (
